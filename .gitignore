@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+reports/
+.DS_Store
+
+# Keep document sources and build outputs out of this validation-only repository.
+manuscript/
+submission/
+output/
+build/
+*.tex
+*.bib
+*.sty
+*.bst
+*.pdf
+*.docx

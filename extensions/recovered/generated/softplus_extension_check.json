@@ -1,0 +1,56 @@
+{
+  "status": "PASS_NUMERICAL",
+  "interpretation": "Fixed 3d+1 probes give certified approximate softplus reconstruction under tail, conditioning and contraction bounds; this check uses floating arithmetic, not an interval proof implementation.",
+  "ratio_derivative_positive_lower": 0.07304168742765789,
+  "records": [
+    {
+      "suppression": 8.0,
+      "vector_queries": 13,
+      "effective_output_error_upper": 0.002525211596920199,
+      "source_value_error_upper": 0.08699150517321931,
+      "status": "UNKNOWN_MARGIN"
+    },
+    {
+      "suppression": 12.0,
+      "vector_queries": 13,
+      "effective_output_error_upper": 4.625086372683413e-05,
+      "source_value_error_upper": 0.001507573744776033,
+      "status": "PASS_NUMERICAL",
+      "gain_error_upper": 0.12177931456917848,
+      "maximum_gain_error": 7.045839048314129e-08,
+      "threshold_error_upper": 0.528068448037186,
+      "maximum_threshold_error": 1.3242565818805119e-05,
+      "uniform_intervention_error_upper": 4.3003329041022935,
+      "maximum_sampled_intervention_error": 2.4657727631383075e-06,
+      "intervention_tests": 50
+    },
+    {
+      "suppression": 16.0,
+      "vector_queries": 13,
+      "effective_output_error_upper": 8.471141183127483e-07,
+      "source_value_error_upper": 2.6827176671091594e-05,
+      "status": "PASS_NUMERICAL",
+      "gain_error_upper": 0.0021428460918726092,
+      "maximum_gain_error": 1.3551757216401228e-09,
+      "threshold_error_upper": 0.009290968326777867,
+      "maximum_threshold_error": 2.4274490761921896e-07,
+      "uniform_intervention_error_upper": 0.07566821482060963,
+      "maximum_sampled_intervention_error": 4.420661686710403e-08,
+      "intervention_tests": 50
+    },
+    {
+      "suppression": 20.0,
+      "vector_queries": 13,
+      "effective_output_error_upper": 1.551543628856474e-08,
+      "source_value_error_upper": 4.827302467367481e-07,
+      "status": "PASS_NUMERICAL",
+      "gain_error_upper": 3.8550873448026514e-05,
+      "maximum_gain_error": 2.5534768743895597e-11,
+      "threshold_error_upper": 0.0001671488495764,
+      "maximum_threshold_error": 4.448227008957417e-09,
+      "uniform_intervention_error_upper": 0.0013613072789228238,
+      "maximum_sampled_intervention_error": 8.032400855562116e-10,
+      "intervention_tests": 50
+    }
+  ]
+}

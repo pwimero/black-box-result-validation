@@ -1,0 +1,333 @@
+{
+  "anchors": [
+    {
+      "frozen_index": 8,
+      "path": "/code/Test/03460.png",
+      "role": "construction"
+    },
+    {
+      "frozen_index": 9,
+      "path": "/code/Test/07172.png",
+      "role": "construction"
+    },
+    {
+      "frozen_index": 10,
+      "path": "/code/Test/08882.png",
+      "role": "heldout"
+    },
+    {
+      "frozen_index": 11,
+      "path": "/code/Test/07193.png",
+      "role": "heldout"
+    }
+  ],
+  "arrangements": [
+    {
+      "exact_polygonal_cells": 226,
+      "frozen_anchor_index": 8,
+      "local_anchor_index": 0,
+      "maximum_cell_vertices": 6,
+      "unique_crossing_relu_lines": 41
+    },
+    {
+      "exact_polygonal_cells": 282,
+      "frozen_anchor_index": 9,
+      "local_anchor_index": 1,
+      "maximum_cell_vertices": 7,
+      "unique_crossing_relu_lines": 48
+    },
+    {
+      "exact_polygonal_cells": 802,
+      "frozen_anchor_index": 10,
+      "local_anchor_index": 2,
+      "maximum_cell_vertices": 8,
+      "unique_crossing_relu_lines": 73
+    },
+    {
+      "exact_polygonal_cells": 379,
+      "frozen_anchor_index": 11,
+      "local_anchor_index": 3,
+      "maximum_cell_vertices": 7,
+      "unique_crossing_relu_lines": 45
+    }
+  ],
+  "audits": {
+    "exact_evaluator_equalities": 560,
+    "exact_evaluator_result": "PASS",
+    "float_replay_evaluations": 4896,
+    "float_replay_evidence": "EMPIRICAL_NUMERIC",
+    "float_replay_result": "PASS",
+    "float_replay_tolerance": "0.00002",
+    "max_abs_float_error": "1.0070645799942213e-05"
+  },
+  "claim": {
+    "direct_target_group_query_excluded": true,
+    "quantity": "group-0 causal ablation effect on target-minus-contrast logit"
+  },
+  "dual_certificate_sidecar": {
+    "certificate_count": 32296,
+    "compressed_bytes": 4870262,
+    "compression": "gzip level 9, mtime 0",
+    "path": "results/continuous_triangle_duals.json.gz",
+    "schema": "tcabb.continuous_triangle_duals.v2",
+    "sha256": "077ef1831a58db8f0cdf3d0ffe59d01cc23c6762f57b52c69913916254bb5113"
+  },
+  "evidence_level": "EXACT_RATIONAL",
+  "frozen_artifacts": {
+    "checkpoint": "results/natural_family/checkpoint_seed_20260714.pt",
+    "checkpoint_sha256": "6706d56fc663c21151820d5f87d97ecb1cc6300926ffd343eeaf6c2e4be8f02c",
+    "inputs": "results/natural_family/inputs_seed_20260714.npz",
+    "inputs_sha256": "d71bfc66a9e9864fb80451f0329c8153b792d8b2dc8773056cf3fba2a1369f17"
+  },
+  "hard_interface_obstruction": {
+    "absolute_claim_delta": {
+      "decimal": "3.2643428048126211",
+      "denominator": "1288479137146450032718847906087061263578727160284477043140198400",
+      "numerator": "4206037600495188296035355903108981203591386312630158692989207529"
+    },
+    "absolute_fractional_response_delta": {
+      "decimal": "0.50383661120315681",
+      "denominator": "429493045715483344239615968695687087859575720094825681046732800",
+      "numerator": "216394320688611630975380076566248091704523669008160356659837817"
+    },
+    "absolute_jensen_defect": {
+      "decimal": "0.56965659735773877",
+      "denominator": "644239568573225016359423953043530631789363580142238521570099200",
+      "numerator": "366995320516640975437674720070548490486523213895185489388912931"
+    },
+    "anchor_indices": [
+      8,
+      9
+    ],
+    "edge_parameters": [
+      {
+        "decimal": "0.68492913080751194",
+        "denominator": "4365537124051341693043576068112238704235775",
+        "numerator": "2990083547884410904910826692223869858668214"
+      },
+      {
+        "decimal": "0.647186952653658",
+        "denominator": "4365537124051341693043576068112238704235775",
+        "numerator": "2825318668011202086955898964847764114773348"
+      }
+    ],
+    "maximum_absolute_hard_response_delta": {
+      "decimal": "0.065819986154581969",
+      "denominator": "1288479137146450032718847906087061263578727160284477043140198400",
+      "numerator": "84807678967447057949209210442352705859475420765889908798312411"
+    },
+    "minimax_error_lower_bound": {
+      "decimal": "1.1714314993242367",
+      "denominator": "34359443657238667539169277495654967028766057607586054483738624",
+      "numerator": "40249734599345726463285692758880577620783072292102666264171117"
+    },
+    "result": "FALSIFIED_EXACTLY",
+    "signed_fractional_response_delta": {
+      "decimal": "-0.50383661120315681",
+      "denominator": "429493045715483344239615968695687087859575720094825681046732800",
+      "numerator": "-216394320688611630975380076566248091704523669008160356659837817"
+    },
+    "signed_hard_response_deltas": [
+      {
+        "decimal": "0",
+        "denominator": "1",
+        "numerator": "0"
+      },
+      {
+        "decimal": "0",
+        "denominator": "1",
+        "numerator": "0"
+      },
+      {
+        "decimal": "0.065819986154581969",
+        "denominator": "1288479137146450032718847906087061263578727160284477043140198400",
+        "numerator": "84807678967447057949209210442352705859475420765889908798312411"
+      },
+      {
+        "decimal": "-0.065819986154581969",
+        "denominator": "1288479137146450032718847906087061263578727160284477043140198400",
+        "numerator": "-84807678967447057949209210442352705859475420765889908798312411"
+      },
+      {
+        "decimal": "0.065819986154581969",
+        "denominator": "1288479137146450032718847906087061263578727160284477043140198400",
+        "numerator": "84807678967447057949209210442352705859475420765889908798312411"
+      }
+    ],
+    "signed_jensen_defect": {
+      "decimal": "-0.56965659735773877",
+      "denominator": "644239568573225016359423953043530631789363580142238521570099200",
+      "numerator": "-366995320516640975437674720070548490486523213895185489388912931"
+    },
+    "twice_minimax_error_lower_bound": {
+      "decimal": "2.3428629986484735",
+      "denominator": "17179721828619333769584638747827483514383028803793027241869312",
+      "numerator": "40249734599345726463285692758880577620783072292102666264171117"
+    }
+  },
+  "interfaces": {
+    "fractional_linf_distance_to_nearest_hard_vertex": "0.25",
+    "fractional_query": [
+      "0",
+      "0",
+      "1/4",
+      "0",
+      "3/4"
+    ],
+    "fractional_replacement_index": 2,
+    "hard_complete_vertex_library": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "unit_budget": true
+  },
+  "mechanism_domain": {
+    "barycentric_vertices": [
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    "conv2_channel_groups": [
+      [
+        5,
+        22,
+        26,
+        28
+      ],
+      [
+        0,
+        11,
+        17,
+        23
+      ],
+      [
+        1,
+        4,
+        10,
+        12,
+        25,
+        30
+      ],
+      [
+        3,
+        15,
+        16,
+        20,
+        27
+      ],
+      [
+        8,
+        9,
+        14,
+        18,
+        19,
+        24,
+        29
+      ],
+      [
+        2,
+        6,
+        7,
+        13,
+        21,
+        31
+      ]
+    ],
+    "kind": "closed two-dimensional continuous triangle",
+    "uncountable": true
+  },
+  "model": {
+    "architecture": "Conv3x3(3,16)-ReLU-AvgPool-Conv3x3(16,32)-ReLU-AvgPool-FC128-ReLU-FC43",
+    "contrast_class": 11,
+    "quantized_test_accuracy": 0.8732383214568488,
+    "target_class": 12,
+    "training_seed": 20260714
+  },
+  "schema": "tcabb.continuous_triangle_benchmark.v1",
+  "stable_fractional_interface": {
+    "counts": {
+      "cell_sign_cases": 3770166,
+      "exact_claim_range_prunes": 1700979,
+      "exact_dual_certificates": 32296,
+      "exact_response_range_prunes": 2036891,
+      "lp_support_proposals": 32296,
+      "unresolved": 0
+    },
+    "decoder": "inf_w (claim(w) + 14 * ||y - response(w)||_infinity)",
+    "distinct_exact_dual_bounds": 3553,
+    "dual_transcript_sha256": "adfd99dee7c68d56afb18dbe9d341602dc58b008cdd91777906c2c5c3c98f76a",
+    "lipschitz_constant": {
+      "decimal": "14",
+      "denominator": "1",
+      "numerator": "14"
+    },
+    "noise_guarantee": "response noise <= eta implies claim error <= 14 eta",
+    "proved_twice_minimax_error_upper_bound": {
+      "decimal": "0",
+      "denominator": "1",
+      "numerator": "0"
+    },
+    "reason": "EXACT_RATIONAL_WEAK_DUALITY",
+    "result": "CERTIFIED"
+  },
+  "status": "PASS",
+  "trust_boundary": {
+    "failure_semantics": "any absent or invalid exact certificate returns UNKNOWN",
+    "pass_rule": "every non-pruned LP has nonnegative rational dual weights, exact A^T lambda = e_u, and exact lambda^T b <= 0",
+    "scipy_role": "candidate dual-support ordering only"
+  }
+}

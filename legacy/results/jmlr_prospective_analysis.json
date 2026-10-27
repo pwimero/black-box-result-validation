@@ -1,0 +1,107 @@
+{
+  "all_anchor_error_dominance": {
+    "equal": 102,
+    "hybrid_better": 26,
+    "hybrid_worse": 22
+  },
+  "by_class": {
+    "1": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 1,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 19,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 2,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 8,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "12": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 0,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 20,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 5,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 5,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "13": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 1,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 17,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 0,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 12,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "14": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 2,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 17,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 3,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 8,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "2": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 1,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 22,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 2,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 5,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    }
+  },
+  "by_triangle": {
+    "triangle_a": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 3,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 30,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 4,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 13,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "triangle_b": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 0,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 33,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 3,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 14,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    },
+    "triangle_c": {
+      "CONFIRMED_STRICT_WIN_ON_DECLARED_NET": 2,
+      "NO_HARD_OBSTRUCTION_ON_DECLARED_NET": 32,
+      "NO_ZERO_ERROR_FRACTIONAL_CANDIDATE": 5,
+      "SELECTED_INTERFACE_DID_NOT_CONFIRM": 11,
+      "TRAINING_OR_ANCHOR_FAILURE": 0
+    }
+  },
+  "confirmed_selected_mixture_weights": {
+    "1/2": 3,
+    "1/4": 2
+  },
+  "failure_funnel": {
+    "confirmation_given_construction_eligibility": 0.11627906976744186,
+    "confirmed": 5,
+    "construction_eligibility_given_hard_obstruction": 0.7818181818181819,
+    "construction_eligible": 43,
+    "hard_obstructed": 55,
+    "hard_obstruction_rate": 0.36666666666666664,
+    "registered": 150
+  },
+  "fixed_selected_interface_sensitivity": {
+    "14/1": {
+      "fixed_L14_selected_interface_strict_wins": 5,
+      "selection_was_not_repeated_at_this_L": false
+    },
+    "20/1": {
+      "fixed_L14_selected_interface_strict_wins": 14,
+      "selection_was_not_repeated_at_this_L": true
+    },
+    "4/1": {
+      "fixed_L14_selected_interface_strict_wins": 5,
+      "selection_was_not_repeated_at_this_L": true
+    },
+    "8/1": {
+      "fixed_L14_selected_interface_strict_wins": 5,
+      "selection_was_not_repeated_at_this_L": true
+    }
+  },
+  "interpretation": {
+    "largest_filter": "95/150 settings have no hard obstruction at L=14",
+    "largest_post_selection_failure": "38/43 construction-eligible settings fail all-anchor confirmation",
+    "multiplicity_boundary": "subgroup and L-sensitivity summaries are secondary descriptive analyses",
+    "primary": "strict fractional gains transfer across architectures but are uncommon"
+  },
+  "protocol_sha256": "0b043d6a41dd8002bb70abcee94b66bf30ca9a2addd0ff886c8b17d5d69e03c8",
+  "schema": "tcabb.jmlr_prospective_analysis.v1",
+  "source_artifact": "results/jmlr_prospective_suite.json"
+}
